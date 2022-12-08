@@ -5,11 +5,11 @@ class Wizard
 
   def initialize(name, bearded = true)
     @name = name
-    @bearded = true
+    @bearded = bearded
   end
 
   def bearded?
-    @bearded
+    @bearded == true
   end
 
   def incantation(x)
